@@ -2,6 +2,7 @@
 #
 # Lock the screen while showing an unreadable version of your current screen
 # Author: rcefala
+# Required packages: scrot
 
 SCREEN1=`tempfile --prefix shot- --suffix .png`
 SCREEN2=`tempfile --prefix shot- --suffix .png`
