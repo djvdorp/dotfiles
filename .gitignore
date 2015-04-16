@@ -8,3 +8,4 @@
 # And not these folders...
 !/.i3/
 !/bin/
+!/etc/
