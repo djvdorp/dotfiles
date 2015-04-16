@@ -161,3 +161,22 @@ bar {
         position top
         status_command i3status
 }
+
+
+#
+# Daemons
+#
+# Play nice with GNOME (DBus etc.)
+exec /usr/bin/gnome-settings-daemon &
+# Use xautolock to lock screen automatically after timeout
+exec xautolock -time 5 -locker ~/bin/shot-lock &
+# Dropbox daemon
+exec dropbox start &
+
+
+#
+# Startup apps
+#
+exec clipit &
+exec nm-applet &
+exec gnome-sound-applet &
