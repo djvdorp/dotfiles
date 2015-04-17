@@ -1,0 +1,20 @@
+# deb http://ftp.nl.debian.org/debian/ jessie main
+
+deb http://ftp.nl.debian.org/debian/ jessie main non-free
+
+deb http://security.debian.org/ jessie/updates main
+
+# jessie-updates, previously known as 'volatile'
+deb http://ftp.nl.debian.org/debian/ jessie-updates main
+
+# jessie-backports, previously on backports.debian.org
+deb http://ftp.nl.debian.org/debian/ jessie-backports main
+
+# experimental
+deb http://ftp.nl.debian.org/debian experimental main non-free
+
+# VirtualBox
+deb http://download.virtualbox.org/virtualbox/debian wheezy contrib non-free
+
+# Mendix
+deb http://packages.mendix.com/debian/ jessie main contrib non-free
