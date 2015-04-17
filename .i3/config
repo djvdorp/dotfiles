@@ -172,6 +172,8 @@ exec /usr/bin/gnome-settings-daemon &
 exec xautolock -time 5 -locker ~/bin/shot-lock &
 # Dropbox daemon
 exec dropbox start &
+# Mail Notification daemon
+exec mail-notification &
 
 
 #
