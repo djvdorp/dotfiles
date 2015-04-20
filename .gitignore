@@ -5,6 +5,7 @@
 # But not these files...
 !.gitignore
 !packages.list
+!.vimrc
 
 # And not these folders...
 !/.i3/
