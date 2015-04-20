@@ -169,7 +169,7 @@ bar {
 # Play nice with GNOME (DBus etc.)
 exec /usr/bin/gnome-settings-daemon &
 # Use xautolock to lock screen automatically after timeout
-exec xautolock -time 5 -locker ~/bin/shot-lock.sh &
+exec xautolock -time 1 -locker ~/bin/shot-lock.sh &
 # Dropbox daemon
 exec dropbox start &
 # Mail Notification daemon
