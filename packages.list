@@ -251,9 +251,11 @@ python-gobject
 python-gobject-2                                                                
 python-gpgme                                                                    
 python-minimal                                                                  
+python-pip                                                                      
 python-reportbug                                                                
 python-software-properties                                                      
 python-support                                                                  
+python-virtualenv                                                               
 python2.7                                                                       
 rdnssd                                                                          
 readline-common                                                                 
@@ -297,6 +299,7 @@ vim
 vim-common                                                                      
 vim-tiny                                                                        
 virtualbox-4.3                                                                  
+virtualenvwrapper                                                               
 w3m                                                                             
 wamerican                                                                       
 wget                                                                            
