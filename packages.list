@@ -267,6 +267,7 @@ software-properties-common
 startpar                                                                        
 sudo                                                                            
 sur5r-keyring                                                                   
+system-config-lvm                                                               
 systemd                                                                         
 systemd-sysv                                                                    
 sysv-rc                                                                         
