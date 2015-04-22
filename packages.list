@@ -123,6 +123,7 @@ libdebconfclient0
 libdevmapper1.02.1                                                              
 libdns-export100                                                                
 libestr0                                                                        
+libffi-dev                                                                      
 libffi6                                                                         
 libgcc1                                                                         
 libgconf2-4                                                                     
@@ -183,6 +184,7 @@ libsigc++-2.0-0c2a
 libslang2                                                                       
 libsmartcols1                                                                   
 libss2                                                                          
+libssl-dev                                                                      
 libssl1.0.0                                                                     
 libstdc++6                                                                      
 libswitch-perl                                                                  
@@ -247,6 +249,7 @@ procmail
 procps                                                                          
 python                                                                          
 python-apt                                                                      
+python-dev                                                                      
 python-gobject                                                                  
 python-gobject-2                                                                
 python-gpgme                                                                    

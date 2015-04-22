@@ -114,3 +114,6 @@ fi
 
 source $HOME/.ssh/fixagent
 source $HOME/.autoenv/activate.sh
+
+# For Python virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
