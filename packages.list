@@ -241,12 +241,14 @@ oracle-java8-set-default
 passwd                                                                          
 patch                                                                           
 pciutils                                                                        
+pep8                                                                            
 perl                                                                            
 perl-base                                                                       
 perl-modules                                                                    
 pidgin                                                                          
 procmail                                                                        
 procps                                                                          
+pyflakes                                                                        
 python                                                                          
 python-apt                                                                      
 python-dev                                                                      
