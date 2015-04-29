@@ -80,6 +80,7 @@ host
 hostname                                                                        
 hunspell-en-us                                                                  
 i3                                                                              
+i3status                                                                        
 icedove                                                                         
 ifupdown                                                                        
 info                                                                            
@@ -273,6 +274,7 @@ sed
 sensible-utils                                                                  
 software-properties-common                                                      
 startpar                                                                        
+suckless-tools                                                                  
 sudo                                                                            
 sur5r-keyring                                                                   
 system-config-lvm                                                               
