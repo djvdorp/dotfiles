@@ -102,6 +102,7 @@ kmod
 krb5-locales                                                                    
 kyocera-ppds                                                                    
 laptop-detect                                                                   
+laptop-mode-tools                                                               
 less                                                                            
 libacl1                                                                         
 libapt-inst1.5                                                                  
@@ -220,6 +221,7 @@ mime-support
 mlocate                                                                         
 moreutils                                                                       
 mount                                                                           
+mtr-tiny                                                                        
 multiarch-support                                                               
 mutt                                                                            
 myspell-nl                                                                      
@@ -240,6 +242,7 @@ openssh-server
 oracle-java8-installer                                                          
 oracle-java8-set-default                                                        
 passwd                                                                          
+password-gorilla                                                                
 patch                                                                           
 pciutils                                                                        
 pep8                                                                            
@@ -316,3 +319,4 @@ xautolock
 xorg                                                                            
 xz-utils                                                                        
 zlib1g                                                                          
+zsh                                                                             
