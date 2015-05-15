@@ -112,7 +112,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-source $HOME/.ssh/fixagent
+#source $HOME/.ssh/fixagent
 source $HOME/.autoenv/activate.sh
 
 # For Python virtualenvwrapper

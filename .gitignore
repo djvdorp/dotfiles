@@ -7,6 +7,7 @@
 !packages.list
 !.vimrc
 !.bashrc
+!.bash_profile
 
 # And not these folders...
 !/.i3/
