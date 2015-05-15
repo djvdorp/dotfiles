@@ -41,6 +41,8 @@ debian-archive-keyring
 debian-faq                                                                      
 debian-mendix-keyring                                                           
 debianutils                                                                     
+debootstrap                                                                     
+devscripts                                                                      
 diffutils                                                                       
 discover                                                                        
 dkms                                                                            
@@ -65,6 +67,7 @@ gcc-4.8-base
 gcc-4.9-base                                                                    
 gettext-base                                                                    
 git                                                                             
+git-buildpackage                                                                
 gnome                                                                           
 gnome-core                                                                      
 gnome-games                                                                     
@@ -115,6 +118,7 @@ libboost-iostreams1.55.0
 libbz2-1.0                                                                      
 libc-bin                                                                        
 libc6                                                                           
+libcanberra-gtk-module                                                          
 libcap2                                                                         
 libcap2-bin                                                                     
 libclass-isa-perl                                                               
@@ -244,6 +248,7 @@ oracle-java8-set-default
 passwd                                                                          
 password-gorilla                                                                
 patch                                                                           
+pbuilder                                                                        
 pciutils                                                                        
 pep8                                                                            
 perl                                                                            
@@ -266,6 +271,7 @@ python-software-properties
 python-support                                                                  
 python-virtualenv                                                               
 python2.7                                                                       
+quilt                                                                           
 rdnssd                                                                          
 readline-common                                                                 
 reportbug                                                                       
@@ -276,6 +282,7 @@ scudcloud
 sed                                                                             
 sensible-utils                                                                  
 software-properties-common                                                      
+ssh-askpass                                                                     
 startpar                                                                        
 suckless-tools                                                                  
 sudo                                                                            
