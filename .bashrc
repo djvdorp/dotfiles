@@ -112,8 +112,17 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
+
 #source $HOME/.ssh/fixagent
+
 source $HOME/.autoenv/activate.sh
 
 # For Python virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
+
+# Git variables
+export GIT_AUTHOR_NAME="Daniel van Dorp"
+export GIT_AUTHOR_EMAIL="daniel.van.dorp@mendix.com"
+export GIT_COMMITTER_NAME="Daniel"
+export GIT_COMMITTER_EMAIL="daniel.van.dorp@mendix.com"
