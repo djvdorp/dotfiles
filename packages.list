@@ -5,12 +5,14 @@ acpi-support-base
 acpid                                                                           
 adduser                                                                         
 apt                                                                             
+apt-file                                                                        
 apt-listchanges                                                                 
 apt-transport-https                                                             
 apt-utils                                                                       
 aptitude                                                                        
 aptitude-common                                                                 
 at                                                                              
+axel                                                                            
 base-files                                                                      
 base-passwd                                                                     
 bash                                                                            
@@ -24,6 +26,7 @@ build-essential
 busybox                                                                         
 bzip2                                                                           
 ca-certificates-mendix                                                          
+cf-cli                                                                          
 clipit                                                                          
 console-setup                                                                   
 coreutils                                                                       
@@ -205,6 +208,7 @@ libusb-0.1-4
 libustr-1.0-1                                                                   
 libuuid1                                                                        
 libxtables10                                                                    
+libyaml-dev                                                                     
 linux-headers-3.18.0-trunk-amd64                                                
 linux-headers-3.18.0-trunk-common                                               
 linux-image-3.18.0-trunk-amd64                                                  
@@ -220,7 +224,9 @@ mail-notification
 make-guile                                                                      
 man-db                                                                          
 manpages                                                                        
+maven                                                                           
 mawk                                                                            
+memtest86+                                                                      
 mime-support                                                                    
 mlocate                                                                         
 moreutils                                                                       
@@ -236,6 +242,8 @@ ncurses-term
 net-tools                                                                       
 netbase                                                                         
 netcat-traditional                                                              
+network-manager-openvpn                                                         
+network-manager-openvpn-gnome                                                   
 nfacct                                                                          
 nfs-common                                                                      
 nmon                                                                            
@@ -243,6 +251,7 @@ nodejs
 numlockx                                                                        
 openssh-client                                                                  
 openssh-server                                                                  
+openvpn                                                                         
 oracle-java8-installer                                                          
 oracle-java8-set-default                                                        
 passwd                                                                          
@@ -255,8 +264,10 @@ perl
 perl-base                                                                       
 perl-modules                                                                    
 pidgin                                                                          
+postgresql                                                                      
 procmail                                                                        
 procps                                                                          
+pssh                                                                            
 pyflakes                                                                        
 python                                                                          
 python-apt                                                                      
@@ -272,15 +283,16 @@ python-support
 python-virtualenv                                                               
 python2.7                                                                       
 quilt                                                                           
-rdnssd                                                                          
 readline-common                                                                 
 reportbug                                                                       
+resolvconf                                                                      
 rpcbind                                                                         
 rsyslog                                                                         
 scrot                                                                           
 scudcloud                                                                       
 sed                                                                             
 sensible-utils                                                                  
+shutter                                                                         
 software-properties-common                                                      
 ssh-askpass                                                                     
 startpar                                                                        
@@ -306,6 +318,7 @@ texinfo
 tig                                                                             
 time                                                                            
 traceroute                                                                      
+tree                                                                            
 tzdata                                                                          
 ucf                                                                             
 udev                                                                            
