@@ -53,6 +53,7 @@ dmidecode
 dmsetup                                                                         
 dnsutils                                                                        
 doc-debian                                                                      
+docker.io                                                                       
 dpkg                                                                            
 dropbox                                                                         
 e2fslibs                                                                        
@@ -71,6 +72,7 @@ gcc-4.9-base
 gettext-base                                                                    
 git                                                                             
 git-buildpackage                                                                
+git-gui                                                                         
 gnome                                                                           
 gnome-core                                                                      
 gnome-games                                                                     
@@ -288,6 +290,7 @@ reportbug
 resolvconf                                                                      
 rpcbind                                                                         
 rsyslog                                                                         
+screen                                                                          
 scrot                                                                           
 scudcloud                                                                       
 sed                                                                             
@@ -336,6 +339,7 @@ wget
 whiptail                                                                        
 whois                                                                           
 xautolock                                                                       
+xchm                                                                            
 xorg                                                                            
 xz-utils                                                                        
 zlib1g                                                                          
