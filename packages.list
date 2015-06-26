@@ -238,6 +238,7 @@ multiarch-support
 mutt                                                                            
 myspell-nl                                                                      
 nano                                                                            
+ncdu                                                                            
 ncurses-base                                                                    
 ncurses-bin                                                                     
 ncurses-term                                                                    
