@@ -271,6 +271,7 @@ postgresql
 procmail                                                                        
 procps                                                                          
 pssh                                                                            
+pwgen                                                                           
 pyflakes                                                                        
 python                                                                          
 python-apt                                                                      
