@@ -176,6 +176,7 @@ exec mail-notification &
 exec clipit &
 exec nm-applet &
 exec gnome-sound-applet &
+exec workrave &
 
 
 #

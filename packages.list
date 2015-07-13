@@ -340,8 +340,10 @@ wamerican
 wget                                                                            
 whiptail                                                                        
 whois                                                                           
+workrave                                                                        
 xautolock                                                                       
 xchm                                                                            
+xdotool                                                                         
 xorg                                                                            
 xz-utils                                                                        
 zlib1g                                                                          
