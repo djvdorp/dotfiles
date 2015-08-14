@@ -126,3 +126,7 @@ export GIT_AUTHOR_NAME="Daniel van Dorp"
 export GIT_AUTHOR_EMAIL="daniel.van.dorp@mendix.com"
 export GIT_COMMITTER_NAME="Daniel"
 export GIT_COMMITTER_EMAIL="daniel.van.dorp@mendix.com"
+
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
