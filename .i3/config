@@ -195,3 +195,5 @@ mode "$mode_system" {
     bindsym Escape mode "default"
 }
 bindsym Control+mod1+Delete mode "$mode_system"
+
+bindsym XF86Explorer exec ~/.i3/rearrange-screens
