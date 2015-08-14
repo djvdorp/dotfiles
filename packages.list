@@ -28,6 +28,7 @@ bzip2
 ca-certificates-mendix                                                          
 cf-cli                                                                          
 clipit                                                                          
+cmake                                                                           
 console-setup                                                                   
 coreutils                                                                       
 cpio                                                                            
@@ -86,6 +87,7 @@ grub-pc
 gzip                                                                            
 host                                                                            
 hostname                                                                        
+htop                                                                            
 hunspell-en-us                                                                  
 i3                                                                              
 i3status                                                                        
@@ -185,6 +187,7 @@ libpipeline1
 libpopt0                                                                        
 libprocps3                                                                      
 libpsl0                                                                         
+libreadline-dev                                                                 
 libreadline6                                                                    
 libreoffice                                                                     
 libselinux1                                                                     
@@ -230,6 +233,7 @@ maven
 mawk                                                                            
 memtest86+                                                                      
 mime-support                                                                    
+minizip                                                                         
 mlocate                                                                         
 moreutils                                                                       
 mount                                                                           
@@ -288,6 +292,7 @@ python-virtualenv
 python2.7                                                                       
 quilt                                                                           
 readline-common                                                                 
+redis-tools                                                                     
 reportbug                                                                       
 resolvconf                                                                      
 rpcbind                                                                         
@@ -318,10 +323,12 @@ task-print-server
 task-ssh-server                                                                 
 tasksel                                                                         
 tasksel-data                                                                    
+tcl8.5                                                                          
 telnet                                                                          
 texinfo                                                                         
 tig                                                                             
 time                                                                            
+tmux                                                                            
 traceroute                                                                      
 tree                                                                            
 tzdata                                                                          
@@ -332,6 +339,7 @@ util-linux
 vagrant                                                                         
 vim                                                                             
 vim-common                                                                      
+vim-python-jedi                                                                 
 vim-tiny                                                                        
 virtualbox-4.3                                                                  
 virtualenvwrapper                                                               
@@ -347,4 +355,6 @@ xdotool
 xorg                                                                            
 xz-utils                                                                        
 zlib1g                                                                          
+zlib1g-dev                                                                      
+zlibc                                                                           
 zsh                                                                             
