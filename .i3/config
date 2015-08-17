@@ -207,9 +207,12 @@ bindsym XF86AudioMicMute exec "amixer set Capture toggle"
 # F5-F8
 bindsym XF86MonBrightnessUp exec "xbacklight -inc 20"
 bindsym XF86MonBrightnessDown exec "xbacklight -dec 20"
-bindsym XF86Display exec ~/.i3/rearrange-screens  # auto expand everything
-bindsym Shift+XF86Display exec "xrandr --auto"  # disabling all except for laptop
-#bindsym XF86WLAN exec "wlan-switch wifi"  # for some reason this button already toggles wlan?
+# auto expand everything
+bindsym XF86Display exec ~/.i3/rearrange-screens
+# disabling all except for laptop
+bindsym Shift+XF86Display exec "xrandr --auto"
+# for some reason this button already toggles wlan?
+#bindsym XF86WLAN exec "wlan-switch wifi"
 
 # F9-F12
 #bindsym XF86Tools exec "wlan-switch wwan"
