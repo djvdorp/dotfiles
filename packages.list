@@ -120,6 +120,7 @@ libapt-pkg4.12
 libattr1                                                                        
 libaudit-common                                                                 
 libaudit1                                                                       
+libav-tools                                                                     
 libblkid1                                                                       
 libboost-iostreams1.55.0                                                        
 libbz2-1.0                                                                      
@@ -254,7 +255,6 @@ network-manager-openvpn-gnome
 nfacct                                                                          
 nfs-common                                                                      
 nmon                                                                            
-nodejs                                                                          
 numlockx                                                                        
 openssh-client                                                                  
 openssh-server                                                                  
