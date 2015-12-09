@@ -4,6 +4,7 @@ acpi
 acpi-support-base                                                               
 acpid                                                                           
 adduser                                                                         
+android-tools-fsutils                                                           
 apt                                                                             
 apt-file                                                                        
 apt-listchanges                                                                 
@@ -26,7 +27,9 @@ build-essential
 busybox                                                                         
 bzip2                                                                           
 ca-certificates-mendix                                                          
+ca-certificates-mendix-test                                                     
 cf-cli                                                                          
+cifs-utils                                                                      
 clipit                                                                          
 cmake                                                                           
 console-setup                                                                   
@@ -84,6 +87,7 @@ grep
 groff-base                                                                      
 grub-common                                                                     
 grub-pc                                                                         
+gvncviewer                                                                      
 gzip                                                                            
 host                                                                            
 hostname                                                                        
@@ -254,7 +258,9 @@ network-manager-openvpn
 network-manager-openvpn-gnome                                                   
 nfacct                                                                          
 nfs-common                                                                      
+nload                                                                           
 nmon                                                                            
+ntp                                                                             
 numlockx                                                                        
 openssh-client                                                                  
 openssh-server                                                                  
@@ -264,6 +270,7 @@ oracle-java8-set-default
 passwd                                                                          
 password-gorilla                                                                
 patch                                                                           
+pavucontrol                                                                     
 pbuilder                                                                        
 pciutils                                                                        
 pep8                                                                            
@@ -271,7 +278,6 @@ perl
 perl-base                                                                       
 perl-modules                                                                    
 pidgin                                                                          
-postgresql                                                                      
 procmail                                                                        
 procps                                                                          
 pssh                                                                            
@@ -290,7 +296,9 @@ python-software-properties
 python-support                                                                  
 python-virtualenv                                                               
 python2.7                                                                       
+python2.7-examples                                                              
 quilt                                                                           
+rar                                                                             
 readline-common                                                                 
 redis-tools                                                                     
 reportbug                                                                       
@@ -299,16 +307,17 @@ rpcbind
 rsyslog                                                                         
 screen                                                                          
 scrot                                                                           
-scudcloud                                                                       
 sed                                                                             
 sensible-utils                                                                  
 shutter                                                                         
+slack-desktop                                                                   
 software-properties-common                                                      
 ssh-askpass                                                                     
 startpar                                                                        
 suckless-tools                                                                  
 sudo                                                                            
 sur5r-keyring                                                                   
+sysstat                                                                         
 system-config-lvm                                                               
 systemd                                                                         
 systemd-sysv                                                                    
@@ -334,6 +343,7 @@ tree
 tzdata                                                                          
 ucf                                                                             
 udev                                                                            
+unrar                                                                           
 usbutils                                                                        
 util-linux                                                                      
 vagrant                                                                         
@@ -354,7 +364,9 @@ xbacklight
 xchm                                                                            
 xdotool                                                                         
 xorg                                                                            
+xtightvncviewer                                                                 
 xz-utils                                                                        
+zim                                                                             
 zlib1g                                                                          
 zlib1g-dev                                                                      
 zlibc                                                                           
