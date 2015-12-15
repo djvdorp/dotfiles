@@ -14,7 +14,7 @@ deb http://ftp.nl.debian.org/debian/ jessie-backports main
 deb http://ftp.nl.debian.org/debian experimental main non-free
 
 # VirtualBox
-deb http://download.virtualbox.org/virtualbox/debian wheezy contrib non-free
+deb http://download.virtualbox.org/virtualbox/debian jessie contrib non-free
 
 # Mendix
 deb http://packages.mendix.com/debian/ jessie main contrib non-free
