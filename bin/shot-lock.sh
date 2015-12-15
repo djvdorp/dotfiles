@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #
 # Lock the screen while showing an unreadable version of your current screen
 # Author: rcefala
