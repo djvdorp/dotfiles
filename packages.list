@@ -280,6 +280,7 @@ perl-modules
 pidgin                                                                          
 procmail                                                                        
 procps                                                                          
+protobuf-compiler                                                               
 pssh                                                                            
 pwgen                                                                           
 pyflakes                                                                        
