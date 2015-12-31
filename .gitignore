@@ -8,6 +8,7 @@
 !.vimrc
 !.bashrc
 !.bash_profile
+!.zshrc
 
 # And not these folders...
 !/.i3/
