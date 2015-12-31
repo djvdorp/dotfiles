@@ -67,6 +67,7 @@ exim4
 exim4-base                                                                      
 exim4-config                                                                    
 exim4-daemon-light                                                              
+fakeroot                                                                        
 file                                                                            
 findutils                                                                       
 firmware-iwlwifi                                                                
@@ -111,6 +112,7 @@ iptables
 iputils-ping                                                                    
 isc-dhcp-client                                                                 
 isc-dhcp-common                                                                 
+jxplorer                                                                        
 keyboard-configuration                                                          
 kmod                                                                            
 krb5-locales                                                                    
