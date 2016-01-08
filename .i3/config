@@ -200,8 +200,8 @@ bindsym Control+mod1+Delete mode "$mode_system"
 
 # F1-F4
 bindsym XF86AudioMute exec "amixer set Master toggle"
-bindsym XF86AudioLowerVolume exec "amixer set Master playback 10%-"
-bindsym XF86AudioRaiseVolume exec "amixer set Master playback 10%+ unmute"
+bindsym XF86AudioLowerVolume exec "amixer set Master playback 5%-"
+bindsym XF86AudioRaiseVolume exec "amixer set Master playback 5%+ unmute"
 bindsym XF86AudioMicMute exec "amixer set Capture toggle"
 
 # F5-F8
