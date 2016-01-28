@@ -68,6 +68,7 @@ exim4-base
 exim4-config                                                                    
 exim4-daemon-light                                                              
 fakeroot                                                                        
+fatresize                                                                       
 file                                                                            
 findutils                                                                       
 firmware-iwlwifi                                                                
@@ -83,6 +84,7 @@ gnome-core
 gnome-games                                                                     
 gnupg                                                                           
 google-chrome-stable                                                            
+gparted                                                                         
 gpgv                                                                            
 grep                                                                            
 groff-base                                                                      
@@ -93,6 +95,7 @@ gzip
 host                                                                            
 hostname                                                                        
 htop                                                                            
+httpie                                                                          
 hunspell-en-us                                                                  
 i3                                                                              
 i3status                                                                        
@@ -132,6 +135,7 @@ libboost-iostreams1.55.0
 libbz2-1.0                                                                      
 libc-bin                                                                        
 libc6                                                                           
+libc6-i386                                                                      
 libcanberra-gtk-module                                                          
 libcap2                                                                         
 libcap2-bin                                                                     
@@ -244,8 +248,11 @@ minizip
 mlocate                                                                         
 moreutils                                                                       
 mount                                                                           
+mtools                                                                          
 mtr-tiny                                                                        
 multiarch-support                                                               
+multisystem                                                                     
+multitail                                                                       
 mutt                                                                            
 myspell-nl                                                                      
 nano                                                                            
@@ -300,6 +307,7 @@ python-support
 python-virtualenv                                                               
 python2.7                                                                       
 python2.7-examples                                                              
+qemu-kvm                                                                        
 quilt                                                                           
 rar                                                                             
 readline-common                                                                 
@@ -320,6 +328,7 @@ startpar
 suckless-tools                                                                  
 sudo                                                                            
 sur5r-keyring                                                                   
+syslinux                                                                        
 sysstat                                                                         
 system-config-lvm                                                               
 systemd                                                                         
@@ -343,6 +352,7 @@ time
 tmux                                                                            
 traceroute                                                                      
 tree                                                                            
+tuxboot                                                                         
 tzdata                                                                          
 ucf                                                                             
 udev                                                                            
