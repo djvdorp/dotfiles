@@ -57,7 +57,9 @@ plugins=(git python zsh-syntax-highlighting virtualenvwrapper autojump cf)
 
 # User configuration
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=$HOME/bin:/usr/local/bin:$PATH:$GOBIN
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
