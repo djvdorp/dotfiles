@@ -4,6 +4,8 @@ acpi
 acpi-support-base                                                               
 acpid                                                                           
 adduser                                                                         
+android-tools-adb                                                               
+android-tools-fastboot                                                          
 android-tools-fsutils                                                           
 apt                                                                             
 apt-file                                                                        
@@ -124,6 +126,9 @@ kyocera-ppds
 laptop-detect                                                                   
 laptop-mode-tools                                                               
 less                                                                            
+lib32stdc++6                                                                    
+lib32z1                                                                         
+lib32z1-dev                                                                     
 libacl1                                                                         
 libapt-inst1.5                                                                  
 libapt-pkg4.12                                                                  
