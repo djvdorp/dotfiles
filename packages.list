@@ -97,6 +97,7 @@ grub-common
 grub-pc                                                                         
 gvncviewer                                                                      
 gzip                                                                            
+hexchat                                                                         
 host                                                                            
 hostname                                                                        
 htop                                                                            
@@ -254,6 +255,7 @@ memtest86+
 mime-support                                                                    
 minizip                                                                         
 mlocate                                                                         
+mongodb                                                                         
 moreutils                                                                       
 mount                                                                           
 mtools                                                                          
@@ -277,6 +279,7 @@ nfacct
 nfs-common                                                                      
 nload                                                                           
 nmon                                                                            
+nodejs                                                                          
 ntp                                                                             
 numlockx                                                                        
 openssh-client                                                                  
