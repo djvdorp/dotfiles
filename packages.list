@@ -83,6 +83,7 @@ gettext-base
 git                                                                             
 git-buildpackage                                                                
 git-gui                                                                         
+gitkraken                                                                       
 gnome                                                                           
 gnome-core                                                                      
 gnome-games                                                                     

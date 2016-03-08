@@ -92,3 +92,6 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 # For Python virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
+
+# For nvbn/thefuck
+eval $(thefuck --alias)
