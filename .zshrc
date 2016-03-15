@@ -97,4 +97,15 @@ export WORKON_HOME=$HOME/.virtualenvs
 eval $(thefuck --alias)
 
 # For SSH Host Completion - Zsh Style
-zstyle -e ':completion:*:hosts' hosts 'reply=($(< ~/Projects/mendix/puppy/allemaal))'
+# use ~/Projects/mendix/puppy/allemaal, ~/.ssh/known_hosts and /etc/hosts for hostname completion
+[ -r ~/Projects/mendix/puppy/allemaal ] && _mx_hosts=($(<$HOME/Projects/mendix/puppy/allemaal)) || _mx_hosts=()
+[ -r ~/.ssh/known_hosts ] && _ssh_hosts=(${${${${(f)"$(<$HOME/.ssh/known_hosts)"}:#[\|]*}%%\ *}%%,*}) || _ssh_hosts=()
+[ -r /etc/hosts ] && : ${(A)_etc_hosts:=${(s: :)${(ps:\t:)${${(f)~~"$(</etc/hosts)"}%%\#*}##[:blank:]#[^[:blank:]]#}}} || _etc_hosts=()
+hosts=(
+  "$_mx_hosts[@]"
+  "$_ssh_hosts[@]"
+  "$_etc_hosts[@]"
+  `hostname`
+  localhost
+)
+zstyle ':completion:*:hosts' hosts $hosts
