@@ -95,3 +95,6 @@ export WORKON_HOME=$HOME/.virtualenvs
 
 # For nvbn/thefuck
 eval $(thefuck --alias)
+
+# For SSH Host Completion - Zsh Style
+zstyle -e ':completion:*:hosts' hosts 'reply=($(< ~/Projects/mendix/puppy/allemaal))'
