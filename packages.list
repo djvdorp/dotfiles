@@ -32,6 +32,7 @@ bzip2
 ca-certificates-mendix                                                          
 ca-certificates-mendix-test                                                     
 cf-cli                                                                          
+chefdk                                                                          
 cifs-utils                                                                      
 clipit                                                                          
 cmake                                                                           
@@ -73,6 +74,7 @@ exim4-config
 exim4-daemon-light                                                              
 fakeroot                                                                        
 fatresize                                                                       
+feh                                                                             
 ffmpeg                                                                          
 file                                                                            
 findutils                                                                       
@@ -378,6 +380,7 @@ vim-python-jedi
 vim-tiny                                                                        
 virtualbox-5.0                                                                  
 virtualenvwrapper                                                               
+vlc                                                                             
 w3m                                                                             
 wamerican                                                                       
 wget                                                                            
