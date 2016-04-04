@@ -16,6 +16,7 @@ apt-utils
 aptitude                                                                        
 aptitude-common                                                                 
 at                                                                              
+atop                                                                            
 axel                                                                            
 base-files                                                                      
 base-passwd                                                                     
@@ -259,6 +260,7 @@ mime-support
 minizip                                                                         
 mlocate                                                                         
 mongodb                                                                         
+mono-devel                                                                      
 moreutils                                                                       
 mount                                                                           
 mtools                                                                          
@@ -371,11 +373,13 @@ tzdata
 ucf                                                                             
 udev                                                                            
 unrar                                                                           
+unzip                                                                           
 usbutils                                                                        
 util-linux                                                                      
 vagrant                                                                         
 vim                                                                             
 vim-common                                                                      
+vim-nox                                                                         
 vim-python-jedi                                                                 
 vim-tiny                                                                        
 virtualbox-5.0                                                                  
@@ -395,6 +399,7 @@ xorg
 xtightvncviewer                                                                 
 xz-utils                                                                        
 zim                                                                             
+zip                                                                             
 zlib1g                                                                          
 zlib1g-dev                                                                      
 zlibc                                                                           
