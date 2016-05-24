@@ -205,8 +205,8 @@ bindsym XF86AudioRaiseVolume exec "amixer set Master playback 5%+ unmute"
 bindsym XF86AudioMicMute exec "amixer set Capture toggle"
 
 # F5-F8
-bindsym XF86MonBrightnessUp exec "xbacklight -inc 20"
-bindsym XF86MonBrightnessDown exec "xbacklight -dec 20"
+bindsym XF86MonBrightnessUp exec "xbacklight -inc 5"
+bindsym XF86MonBrightnessDown exec "xbacklight -dec 5"
 # auto expand everything
 bindsym XF86Display exec ~/.i3/rearrange-screens
 # disabling all except for laptop
