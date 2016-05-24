@@ -40,6 +40,7 @@ cmake
 console-setup                                                                   
 coreutils                                                                       
 cpio                                                                            
+cpulimit                                                                        
 cron                                                                            
 cryptsetup                                                                      
 curl                                                                            
@@ -65,7 +66,6 @@ dnsutils
 doc-debian                                                                      
 docker.io                                                                       
 dpkg                                                                            
-dropbox                                                                         
 e2fslibs                                                                        
 e2fsprogs                                                                       
 etckeeper                                                                       
@@ -79,6 +79,7 @@ feh
 ffmpeg                                                                          
 file                                                                            
 findutils                                                                       
+firefox-esr                                                                     
 firmware-iwlwifi                                                                
 ftp                                                                             
 gcc-4.8-base                                                                    
@@ -91,6 +92,7 @@ gitkraken
 gnome                                                                           
 gnome-core                                                                      
 gnome-games                                                                     
+gnome-software                                                                  
 gnupg                                                                           
 golang                                                                          
 google-chrome-stable                                                            
@@ -120,6 +122,7 @@ initscripts
 insserv                                                                         
 install-info                                                                    
 installation-report                                                             
+iotop                                                                           
 iproute                                                                         
 iproute2                                                                        
 iptables                                                                        
@@ -174,10 +177,9 @@ libgnome2-common
 libgnomevfs2-0                                                                  
 libgnomevfs2-common                                                             
 libgnomevfs2-extra                                                              
-libgnutls-deb0-28                                                               
 libgnutls-openssl27                                                             
 libgpg-error0                                                                   
-libhogweed2                                                                     
+libgsf-bin                                                                      
 libhsqldb1.8.0-java                                                             
 libicu52                                                                        
 libidn11                                                                        
@@ -189,14 +191,12 @@ libkmod2
 liblocale-gettext-perl                                                          
 liblockfile-bin                                                                 
 liblogging-stdlog0                                                              
-liblognorm1                                                                     
 liblzma5                                                                        
 libmnl0                                                                         
 libmount1                                                                       
 libncurses5                                                                     
 libncursesw5                                                                    
 libnetfilter-acct1                                                              
-libnettle4                                                                      
 libnewt0.52                                                                     
 libnfnetlink0                                                                   
 libp11-kit0                                                                     
@@ -218,7 +218,6 @@ libselinux1
 libsemanage-common                                                              
 libsemanage1                                                                    
 libsepol1                                                                       
-libsigc++-2.0-0c2a                                                              
 libslang2                                                                       
 libsmartcols1                                                                   
 libss2                                                                          
@@ -240,7 +239,6 @@ libxtables10
 libyaml-dev                                                                     
 linux-headers-3.18.0-trunk-amd64                                                
 linux-headers-3.18.0-trunk-common                                               
-linux-image-3.18.0-trunk-amd64                                                  
 linux-image-amd64                                                               
 locales                                                                         
 login                                                                           
@@ -301,7 +299,6 @@ pciutils
 pep8                                                                            
 perl                                                                            
 perl-base                                                                       
-perl-modules                                                                    
 pidgin                                                                          
 procmail                                                                        
 procps                                                                          
@@ -312,6 +309,7 @@ pyflakes
 python                                                                          
 python-apt                                                                      
 python-dev                                                                      
+python-docutils                                                                 
 python-gobject                                                                  
 python-gobject-2                                                                
 python-gpgme                                                                    
@@ -325,6 +323,7 @@ python2.7
 python2.7-examples                                                              
 qemu-kvm                                                                        
 quilt                                                                           
+ranger                                                                          
 rar                                                                             
 readline-common                                                                 
 redis-tools                                                                     
@@ -332,12 +331,14 @@ reportbug
 resolvconf                                                                      
 rpcbind                                                                         
 rsyslog                                                                         
+sbt                                                                             
 screen                                                                          
 scrot                                                                           
 sed                                                                             
 sensible-utils                                                                  
 shutter                                                                         
 slack-desktop                                                                   
+smbclient                                                                       
 software-properties-common                                                      
 ssh-askpass                                                                     
 startpar                                                                        
