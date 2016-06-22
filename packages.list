@@ -69,6 +69,7 @@ docker.io
 dpkg                                                                            
 e2fslibs                                                                        
 e2fsprogs                                                                       
+easystroke                                                                      
 etckeeper                                                                       
 exim4                                                                           
 exim4-base                                                                      
@@ -149,6 +150,7 @@ libaudit-common
 libaudit1                                                                       
 libblkid1                                                                       
 libboost-iostreams1.55.0                                                        
+libboost-serialization1.58.0                                                    
 libbz2-1.0                                                                      
 libc-bin                                                                        
 libc6                                                                           
