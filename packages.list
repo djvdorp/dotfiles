@@ -13,6 +13,7 @@ apt-file
 apt-listchanges                                                                 
 apt-transport-https                                                             
 apt-utils                                                                       
+apticron                                                                        
 aptitude                                                                        
 aptitude-common                                                                 
 at                                                                              
@@ -209,6 +210,7 @@ libpangox-1.0-0
 libpcre3                                                                        
 libpipeline1                                                                    
 libpopt0                                                                        
+libpq-dev                                                                       
 libprocps3                                                                      
 libpsl0                                                                         
 libreadline-dev                                                                 
@@ -332,6 +334,7 @@ resolvconf
 rpcbind                                                                         
 rsyslog                                                                         
 sbt                                                                             
+scala                                                                           
 screen                                                                          
 scrot                                                                           
 sed                                                                             
