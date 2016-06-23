@@ -177,6 +177,7 @@ exec clipit &
 exec nm-applet &
 exec gnome-sound-applet &
 exec workrave &
+exec easystroke &
 
 #
 # i3 Power Management keyboard shortcuts
