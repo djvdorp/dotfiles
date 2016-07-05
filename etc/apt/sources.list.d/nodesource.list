@@ -1,2 +1,2 @@
-deb https://deb.nodesource.com/node_0.10 jessie main
-deb-src https://deb.nodesource.com/node_0.10 jessie main
+deb https://deb.nodesource.com/node_4.x jessie main
+deb-src https://deb.nodesource.com/node_4.x jessie main
