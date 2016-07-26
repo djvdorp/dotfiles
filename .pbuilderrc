@@ -1,4 +1,4 @@
-DISTRIBUTION=wheezy
+DISTRIBUTION=jessie
 COMPONENTS="main contrib non-free"
 
 MIRRORSITE=http://ftp.nl.debian.org/debian
@@ -8,7 +8,7 @@ OTHERMIRROR="deb ${DEBSECSERVER} ${DISTRIBUTION}/updates ${COMPONENTS}"
 #OTHERMIRROR="deb ${DEBSECSERVER} ${DISTRIBUTION}/updates ${COMPONENTS}|deb ${MENDIXPKG} ${DISTRIBUTION} ${COMPONENTS}"
 
 BUILDPLACE=/home/daniel/pbuilder/build
-BASETGZ=/home/daniel/pbuilder/base-wheezy-amd64.tgz
+BASETGZ=/home/daniel/pbuilder/base-jessie-amd64.tgz
 BUILDRESULT=/home/daniel/pbuilder/result
 APTCACHE=/home/daniel/pbuilder/apt-cache
 
