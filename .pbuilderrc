@@ -1,0 +1,21 @@
+DISTRIBUTION=wheezy
+COMPONENTS="main contrib non-free"
+
+MIRRORSITE=http://ftp.nl.debian.org/debian
+DEBSECSERVER=http://security.debian.org/debian-security
+MENDIXPKG=http://packages.mendix.com/debian
+OTHERMIRROR="deb ${DEBSECSERVER} ${DISTRIBUTION}/updates ${COMPONENTS}"
+#OTHERMIRROR="deb ${DEBSECSERVER} ${DISTRIBUTION}/updates ${COMPONENTS}|deb ${MENDIXPKG} ${DISTRIBUTION} ${COMPONENTS}"
+
+BUILDPLACE=/home/daniel/pbuilder/build
+BASETGZ=/home/daniel/pbuilder/base-wheezy-amd64.tgz
+BUILDRESULT=/home/daniel/pbuilder/result
+APTCACHE=/home/daniel/pbuilder/apt-cache
+
+# source ook uploaden
+DEBBUILDOPTS="-sa"
+
+if [[ -n $SUDO_USER ]]; then
+  BUILDRESULTUID=$SUDO_UID
+  BUILDRESULTGID=$SUDO_GID
+fi
