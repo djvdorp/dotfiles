@@ -93,6 +93,12 @@ source $ZSH/oh-my-zsh.sh
 # For Python virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
 
+# Git variables
+export GIT_AUTHOR_NAME="Daniel van Dorp"
+export GIT_AUTHOR_EMAIL="daniel.van.dorp@mendix.com"
+export GIT_COMMITTER_NAME="Daniel"
+export GIT_COMMITTER_EMAIL="daniel.van.dorp@mendix.com"
+
 # For nvbn/thefuck
 eval $(thefuck --alias)
 
