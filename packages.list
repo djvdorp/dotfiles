@@ -13,11 +13,11 @@ apt-file
 apt-listchanges                                                                 
 apt-transport-https                                                             
 apt-utils                                                                       
-apticron                                                                        
 aptitude                                                                        
 aptitude-common                                                                 
 at                                                                              
 atop                                                                            
+audacity                                                                        
 axel                                                                            
 base-files                                                                      
 base-passwd                                                                     
@@ -40,6 +40,7 @@ clipit
 cmake                                                                           
 console-setup                                                                   
 coreutils                                                                       
+cowbuilder                                                                      
 cpio                                                                            
 cpulimit                                                                        
 cron                                                                            
@@ -51,6 +52,7 @@ dc
 dconf-tools                                                                     
 debconf                                                                         
 debconf-i18n                                                                    
+debhelper                                                                       
 debian-archive-keyring                                                          
 debian-faq                                                                      
 debian-mendix-archive-keyring                                                   
@@ -58,6 +60,10 @@ debian-mendix-keyring
 debianutils                                                                     
 debootstrap                                                                     
 devscripts                                                                      
+dh-exec                                                                         
+dh-golang                                                                       
+dh-make                                                                         
+dh-make-golang                                                                  
 diffutils                                                                       
 discover                                                                        
 dkms                                                                            
@@ -80,6 +86,7 @@ fatresize
 feh                                                                             
 ffmpeg                                                                          
 file                                                                            
+filezilla                                                                       
 findutils                                                                       
 firefox-esr                                                                     
 firmware-iwlwifi                                                                
@@ -106,6 +113,8 @@ grub-common
 grub-pc                                                                         
 gvncviewer                                                                      
 gzip                                                                            
+heimdall                                                                        
+heroku-toolbelt                                                                 
 hexchat                                                                         
 host                                                                            
 hostname                                                                        
@@ -218,6 +227,7 @@ libpsl0
 libreadline-dev                                                                 
 libreadline6                                                                    
 libreoffice                                                                     
+librpmbuild3                                                                    
 libselinux1                                                                     
 libsemanage-common                                                              
 libsemanage1                                                                    
@@ -261,7 +271,6 @@ memtest86+
 mime-support                                                                    
 minizip                                                                         
 mlocate                                                                         
-mongodb                                                                         
 mono-devel                                                                      
 moreutils                                                                       
 mount                                                                           
@@ -272,6 +281,7 @@ multisystem
 multitail                                                                       
 mutt                                                                            
 myspell-nl                                                                      
+mysql-client                                                                    
 nano                                                                            
 ncdu                                                                            
 ncurses-base                                                                    
@@ -287,6 +297,7 @@ nfs-common
 nload                                                                           
 nmon                                                                            
 nodejs                                                                          
+ntfs-3g                                                                         
 ntp                                                                             
 numlockx                                                                        
 openssh-client                                                                  
@@ -304,6 +315,7 @@ pep8
 perl                                                                            
 perl-base                                                                       
 pidgin                                                                          
+piuparts                                                                        
 procmail                                                                        
 procps                                                                          
 protobuf-compiler                                                               
@@ -319,12 +331,14 @@ python-gobject-2
 python-gpgme                                                                    
 python-minimal                                                                  
 python-pip                                                                      
+python-py3status                                                                
 python-reportbug                                                                
-python-software-properties                                                      
+python-stdeb                                                                    
 python-support                                                                  
 python-virtualenv                                                               
 python2.7                                                                       
 python2.7-examples                                                              
+python3-dev                                                                     
 qemu-kvm                                                                        
 quilt                                                                           
 ranger                                                                          
@@ -334,6 +348,7 @@ redis-tools
 reportbug                                                                       
 resolvconf                                                                      
 rpcbind                                                                         
+rpm                                                                             
 rsyslog                                                                         
 sbt                                                                             
 scala                                                                           
@@ -343,6 +358,7 @@ sed
 sensible-utils                                                                  
 shutter                                                                         
 slack-desktop                                                                   
+smartmontools                                                                   
 smbclient                                                                       
 software-properties-common                                                      
 ssh-askpass                                                                     
