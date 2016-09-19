@@ -1,1 +1,1 @@
-.vim/.vimrc
+/home/daniel/Projects/djvdorp/vimrc/.vimrc
