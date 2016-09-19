@@ -10,8 +10,8 @@ do
         xrandr --output $d --auto
         if [ -n $PREV ]
         then
-            logger "xrandr --output $d --left-of $PREV"
-            xrandr --output $d --left-of $PREV
+            logger "xrandr --output $d --right-of $PREV"
+            xrandr --output $d --right-of $PREV
         fi
     fi
     PREV=$d
