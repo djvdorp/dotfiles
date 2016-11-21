@@ -38,6 +38,7 @@ bc
 bind9-host
 binfmt-support
 bison
+bridge-utils
 bsd-mailx
 bsdmainutils
 bsdutils
@@ -92,6 +93,9 @@ dh-golang
 dh-make
 dh-make-golang
 dh-strip-nondeterminism
+dia
+dia-common
+dia-shapes
 diffstat
 diffutils
 dirmngr
@@ -251,6 +255,7 @@ lib32ubsan0
 lib32z1
 lib32z1-dev
 libacl1
+libadns1
 libaio1
 libaopalliance-java
 libapache-poi-java
@@ -711,8 +716,6 @@ libqt5core5a
 libqt5dbus5
 libqt5gui5
 libqt5network5
-libqt5opengl5
-libqt5printsupport5
 libqt5svg5
 libqt5widgets5
 libqt5x11extras5
@@ -867,7 +870,6 @@ libzzip-0-13
 lintian
 linux-headers-3.18.0-trunk-amd64
 linux-headers-3.18.0-trunk-common
-linux-image-amd64
 lmodern
 locales
 login
@@ -880,6 +882,7 @@ lua-json
 lua-lpeg
 lua-socket
 lvm2
+lxc
 m4
 mail-notification
 make
@@ -1059,6 +1062,7 @@ rake
 ranger
 rar
 readline-common
+redir
 redis-tools
 reportbug
 resolvconf
@@ -1145,6 +1149,7 @@ tuxboot
 tzdata
 ucf
 udev
+uidmap
 unrar
 unzip
 usbutils
@@ -1158,7 +1163,7 @@ vim-gui-common
 vim-nox
 vim-python-jedi
 vim-tiny
-virtualbox-5.1
+virtualbox-5.0
 virtualenv
 virtualenv-clone
 virtualenvwrapper
