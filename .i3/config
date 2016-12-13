@@ -165,9 +165,9 @@ exec /usr/bin/gnome-settings-daemon &
 # Use xautolock to lock screen automatically after timeout
 exec xautolock -time 5 -locker ~/bin/shot-lock.sh &
 # Dropbox daemon
-exec dropbox start &
+#exec dropbox start &
 # Mail Notification daemon
-exec mail-notification &
+#exec mail-notification &
 
 
 #
@@ -177,7 +177,7 @@ exec clipit &
 exec nm-applet &
 exec gnome-sound-applet &
 exec workrave &
-exec easystroke &
+#exec easystroke &
 
 #
 # i3 Power Management keyboard shortcuts
