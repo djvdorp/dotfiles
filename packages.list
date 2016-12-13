@@ -53,6 +53,7 @@ calendar-google-provider
 cf-cli
 cgroupfs-mount
 chefdk
+chromium
 cifs-utils
 cli-common
 clipit
@@ -175,7 +176,6 @@ golang
 golang-doc
 golang-go
 golang-src
-google-chrome-stable
 gparted
 gpgv
 grep
@@ -998,6 +998,7 @@ python-html5lib
 python-httplib2
 python-jedi
 python-jinja2
+python-keyring
 python-ldb
 python-lzma
 python-markupsafe
@@ -1015,6 +1016,7 @@ python-qt4
 python-reportbug
 python-requests
 python-samba
+python-secretstorage
 python-setuptools
 python-sip
 python-stdeb
@@ -1217,7 +1219,6 @@ xserver-xorg-video-qxl
 xserver-xorg-video-r128
 xserver-xorg-video-radeon
 xserver-xorg-video-savage
-xserver-xorg-video-sisusb
 xserver-xorg-video-tdfx
 xserver-xorg-video-trident
 xserver-xorg-video-vesa

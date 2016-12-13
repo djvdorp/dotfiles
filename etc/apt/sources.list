@@ -8,15 +8,18 @@ deb http://security.debian.org/ stretch/updates main
 deb http://httpredir.debian.org/debian/ stretch-updates main
 
 # jessie-backports, previously on backports.debian.org
-deb http://httpredir.debian.org/debian/ jessie-backports main
+#deb http://httpredir.debian.org/debian/ jessie-backports main
 
 # experimental
-deb http://httpredir.debian.org/debian experimental main non-free
+#deb http://httpredir.debian.org/debian experimental main non-free
 
 # VirtualBox
 deb http://download.virtualbox.org/virtualbox/debian jessie contrib non-free
 
 # Mendix
 deb http://packages.mendix.com/debian/ stretch main contrib non-free
+
 ## Depôt MultiSystem
 deb http://liveusb.info/multisystem/depot all main
+
+deb http://http.debian.net/debian unstable main
