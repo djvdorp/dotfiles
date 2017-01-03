@@ -173,11 +173,12 @@ exec xautolock -time 5 -locker ~/bin/shot-lock.sh &
 #
 # Startup apps
 #
-exec clipit &
-exec nm-applet &
-exec gnome-sound-applet &
-exec workrave &
-#exec easystroke &
+exec --no-startup-id gnome-settings-daemon
+exec --no-startup-id clipit &
+exec --no-startup-id nm-applet
+exec --no-startup-id gnome-sound-applet
+exec --no-startup-id workrave &
+#exec --no-startup-id easystroke &
 
 #
 # i3 Power Management keyboard shortcuts
