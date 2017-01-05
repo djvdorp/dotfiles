@@ -1,5 +1,4 @@
 #!/bin/sh
-# Don't forget to create a symlink for this file to use it: sudo ln -s ~/bin/i3exit.sh /usr/local/bin/i3exit
 lock() {
     ~/bin/shot-lock.sh
 }
