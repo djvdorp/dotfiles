@@ -53,7 +53,7 @@ CASE_SENSITIVE="true"
 # git clone into ~/.oh-my-zsh/custom/plugins/
 # https://github.com/zsh-users/zsh-syntax-highlighting.git
 # https://github.com/frodenas/cf-zsh-autocomplete-plugin.git
-plugins=(git python zsh-syntax-highlighting virtualenvwrapper autojump cf)
+plugins=(git python zsh-syntax-highlighting virtualenvwrapper autojump cf-zsh-autocomplete-plugin)
 
 # User configuration
 
