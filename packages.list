@@ -403,6 +403,7 @@ virtualbox
 virtualbox-dkms                                                                 
 virtualbox-guest-additions-iso                                                  
 virtualbox-qt                                                                   
+visualvm                                                                        
 w3m                                                                             
 wamerican                                                                       
 wget                                                                            

@@ -1,2 +1,2 @@
 #!/bin/sh
-aptitude search '~i !~M' -F %p > ~/packages.list
+aptitude search '~i !~M' -F %p > ~/Projects/djvdorp/ddo/packages.list
