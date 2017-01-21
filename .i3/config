@@ -213,6 +213,8 @@ bindsym XF86MonBrightnessDown exec "xbacklight -dec 5"
 bindsym XF86Display exec ~/.i3/rearrange-screens
 # disabling all except for laptop
 bindsym Shift+XF86Display exec "xrandr --auto"
+# display configuration for at home
+bindsym Ctrl+XF86Display exec ~/bin/displays_home.sh
 # for some reason this button already toggles wlan?
 #bindsym XF86WLAN exec "wlan-switch wifi"
 
