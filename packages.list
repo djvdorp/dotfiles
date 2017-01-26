@@ -17,6 +17,7 @@ aptitude-common
 at                                                                              
 autojump                                                                        
 autotools-dev                                                                   
+awscli                                                                          
 baobab                                                                          
 base-files                                                                      
 base-passwd                                                                     
@@ -139,6 +140,7 @@ grep
 groff-base                                                                      
 grub-common                                                                     
 grub-pc                                                                         
+gtk-redshift                                                                    
 gtk2-engines                                                                    
 gucharmap                                                                       
 gvfs-bin                                                                        
@@ -311,7 +313,6 @@ network-manager-openvpn-gnome
 nfacct                                                                          
 nfs-common                                                                      
 nmon                                                                            
-openjdk-7-jdk                                                                   
 openjdk-8-jdk                                                                   
 openjdk-8-jdk-headless                                                          
 openjdk-8-jre                                                                   
