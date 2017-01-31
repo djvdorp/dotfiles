@@ -41,6 +41,7 @@ cheese
 chefdk                                                                          
 chromium                                                                        
 clipit                                                                          
+cmake                                                                           
 console-setup                                                                   
 coreutils                                                                       
 cpio                                                                            
@@ -134,6 +135,7 @@ gnome-system-monitor
 gnome-terminal                                                                  
 gnome-tetravex                                                                  
 gnupg                                                                           
+golang                                                                          
 goobox                                                                          
 gpgv                                                                            
 grep                                                                            
@@ -150,6 +152,7 @@ gzip
 hamster-applet                                                                  
 heimdall-flash                                                                  
 heimdall-flash-frontend                                                         
+hexchat                                                                         
 hitori                                                                          
 host                                                                            
 hostname                                                                        
@@ -298,6 +301,7 @@ metacity
 mime-support                                                                    
 mlocate                                                                         
 mount                                                                           
+mtr-tiny                                                                        
 multiarch-support                                                               
 mutt                                                                            
 nano                                                                            
