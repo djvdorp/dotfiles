@@ -1,2 +1,2 @@
 #!/bin/sh
-VBoxHeadless -startvm "Windows" -vrde on
+VBoxHeadless --startvm "Windows" --vrde on

@@ -317,6 +317,7 @@ network-manager-openvpn-gnome
 nfacct                                                                          
 nfs-common                                                                      
 nmon                                                                            
+ntp                                                                             
 openjdk-8-jdk                                                                   
 openjdk-8-jdk-headless                                                          
 openjdk-8-jre                                                                   
