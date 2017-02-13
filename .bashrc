@@ -88,6 +88,18 @@ alias ll='ls -l'
 #alias la='ls -A'
 #alias l='ls -CF'
 
+# some useful git aliases
+alias g="git status"
+alias gsh="git show"
+alias gd="git diff"
+alias ga="git add -A ."
+alias gv="git commit -v"
+alias gam="git commit --amend -v"
+alias gfml="git add -A . && git commit --amend --no-edit && git push --force-with-lease"
+alias gfr="git fetch && git rebase && tig"
+alias gp="git push"
+alias gpf="git push --force-with-lease"
+
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
