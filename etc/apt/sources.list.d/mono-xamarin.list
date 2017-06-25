@@ -1,3 +1,0 @@
-deb http://download.mono-project.com/repo/debian wheezy main
-deb http://download.mono-project.com/repo/debian wheezy-apache24-compat main
-deb http://download.mono-project.com/repo/debian wheezy-libjpeg62-compat main
