@@ -28,7 +28,6 @@ bc
 bijiben                                                                         
 bind9-host                                                                      
 brasero                                                                         
-bsd-mailx                                                                       
 bsdmainutils                                                                    
 bsdutils                                                                        
 busybox                                                                         
@@ -162,6 +161,7 @@ gzip
 hamster-applet                                                                  
 heimdall-flash                                                                  
 heimdall-flash-frontend                                                         
+heirloom-mailx                                                                  
 hexchat                                                                         
 hitori                                                                          
 host                                                                            
@@ -201,6 +201,7 @@ less
 libacl1                                                                         
 libapt-inst1.5                                                                  
 libapt-pkg4.12                                                                  
+libasn1-8-heimdal                                                               
 libatk-adaptor                                                                  
 libattr1                                                                        
 libaudit-common                                                                 
@@ -242,7 +243,11 @@ libgnutls-deb0-28
 libgnutls-openssl27                                                             
 libgpg-error0                                                                   
 libgtk2-perl                                                                    
+libhcrypto4-heimdal                                                             
+libhdb9-heimdal                                                                 
+libheimbase1-heimdal                                                            
 libhogweed2                                                                     
+libhx509-5-heimdal                                                              
 libicu52                                                                        
 libidn11                                                                        
 libirs-export91                                                                 
@@ -250,6 +255,7 @@ libisc-export95
 libisccfg-export90                                                              
 libjson-c2                                                                      
 libkmod2                                                                        
+libkrb5-26-heimdal                                                              
 liblocale-gettext-perl                                                          
 liblockfile-bin                                                                 
 liblogging-stdlog0                                                              
@@ -281,6 +287,7 @@ libreoffice
 libreoffice-evolution                                                           
 libreoffice-gnome                                                               
 libreoffice-report-builder-bin                                                  
+libroken18-heimdal                                                              
 libselinux1                                                                     
 libsemanage-common                                                              
 libsemanage1                                                                    
@@ -339,6 +346,8 @@ network-manager-openvpn
 network-manager-openvpn-gnome                                                   
 nfacct                                                                          
 nfs-common                                                                      
+nikto                                                                           
+nmap                                                                            
 nmon                                                                            
 ntp                                                                             
 openjdk-8-jdk                                                                   
@@ -372,6 +381,7 @@ python-gobject-2
 python-minimal                                                                  
 python-pip                                                                      
 python-reportbug                                                                
+python-samba                                                                    
 python-support                                                                  
 python2.7                                                                       
 python3-dev                                                                     
@@ -388,7 +398,7 @@ rsyslog
 rygel-playbin                                                                   
 rygel-tracker                                                                   
 sakura                                                                          
-samba                                                                           
+samba-dsdb-modules                                                              
 screen                                                                          
 scrot                                                                           
 seahorse                                                                        
@@ -397,7 +407,6 @@ sensible-utils
 shutter                                                                         
 silversearcher-ag                                                               
 simple-scan                                                                     
-smbclient                                                                       
 software-properties-common                                                      
 spotify-client                                                                  
 startpar                                                                        
