@@ -146,6 +146,7 @@ gnupg2
 golang                                                                          
 goobox                                                                          
 google-talkplugin                                                               
+gparted                                                                         
 gpgv                                                                            
 grep                                                                            
 groff-base                                                                      
@@ -169,6 +170,7 @@ hostname
 htop                                                                            
 i3                                                                              
 iagno                                                                           
+icedtea-netx                                                                    
 ifupdown                                                                        
 imagemagick                                                                     
 info                                                                            
@@ -198,6 +200,7 @@ kyocera-ppds
 laptop-detect                                                                   
 laptop-mode-tools                                                               
 less                                                                            
+lftp                                                                            
 libacl1                                                                         
 libapt-inst1.5                                                                  
 libapt-pkg4.12                                                                  
