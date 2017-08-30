@@ -35,6 +35,7 @@ bzip2
 ca-certificates                                                                 
 ca-certificates-mendix                                                          
 ca-certificates-mendix-test                                                     
+calibre                                                                         
 caribou                                                                         
 caribou-antler                                                                  
 cf-cli                                                                          
@@ -106,6 +107,7 @@ gedit-plugins
 gettext-base                                                                    
 gimp                                                                            
 git-buildpackage                                                                
+gnome-applets                                                                   
 gnome-calculator                                                                
 gnome-chess                                                                     
 gnome-clocks                                                                    
@@ -193,6 +195,7 @@ ipython3
 isc-dhcp-client                                                                 
 isc-dhcp-common                                                                 
 jq                                                                              
+kazam                                                                           
 keyboard-configuration                                                          
 kmod                                                                            
 krb5-locales                                                                    
