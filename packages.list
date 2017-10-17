@@ -43,6 +43,7 @@ cheese
 chefdk                                                                          
 chromium                                                                        
 clipit                                                                          
+clonezilla                                                                      
 cmake                                                                           
 console-setup                                                                   
 coreutils                                                                       
@@ -336,6 +337,7 @@ mawk
 metacity                                                                        
 mime-support                                                                    
 mlocate                                                                         
+mongodb-clients                                                                 
 mount                                                                           
 mtr-tiny                                                                        
 multiarch-support                                                               
