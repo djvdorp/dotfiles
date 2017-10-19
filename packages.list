@@ -194,6 +194,7 @@ libustr-1.0-1
 libuuid1
 libxapian30
 libxtables12
+linux-headers-amd64
 linux-image-amd64
 locales
 login
@@ -242,11 +243,13 @@ sed
 sensible-utils
 shutter
 silversearcher-ag
+smartmontools
 software-properties-common
 spotify-client
 strace
 suckless-tools
 sudo
+sysfsutils
 systemd
 systemd-sysv
 sysvinit-utils
@@ -263,6 +266,7 @@ tcpdump
 telnet
 tig
 traceroute
+tree
 tzdata
 udev
 usbutils
@@ -279,8 +283,10 @@ workrave
 wpasupplicant
 x11-xserver-utils
 xautolock
+xbacklight
 xdg-utils
 xserver-xorg
+xserver-xorg-video-intel
 xxd
 xz-utils
 zenity
