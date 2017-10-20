@@ -4,7 +4,7 @@ DISPLAYS=$(xrandr | grep "\sconnected" | awk '{print $1}')
 
 for d in $DISPLAYS
 do
-    if [ "$d" != "eDP1" ]
+    if [ "$d" != "eDP-1" ]
     then
         logger "xrandr --output $d --auto"
         xrandr --output $d --auto

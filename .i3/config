@@ -211,7 +211,7 @@ bindsym XF86AudioMicMute exec "amixer set Capture toggle"
 bindsym XF86MonBrightnessUp exec "xbacklight -inc 5"
 bindsym XF86MonBrightnessDown exec "xbacklight -dec 5"
 # auto expand everything
-bindsym XF86Display exec ~/.i3/rearrange-screens
+bindsym XF86Display exec ~/.config/i3/rearrange-screens
 # disabling all except for laptop
 bindsym Shift+XF86Display exec "xrandr --auto"
 # display configuration for at home
