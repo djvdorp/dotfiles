@@ -21,6 +21,7 @@ bluetooth
 bsdmainutils
 bsdutils
 btrfs-progs
+build-essential
 busybox
 bzip2
 ca-certificates
@@ -29,6 +30,7 @@ ca-certificates-mendix-test
 cf-cli
 chromium
 clipit
+cmake
 console-setup
 coreutils
 cpio
@@ -69,6 +71,7 @@ gnome-keyring
 gnome-terminal
 gnupg
 gnupg-agent
+golang
 gpgv
 grep
 groff-base
@@ -232,12 +235,15 @@ powertop
 procps
 puppet-release
 python
+python-dev
 python-minimal
 python2.7
+python3-dev
 python3-reportbug
 readline-common
 reportbug
 rsyslog
+ruby-dev
 scrot
 sed
 sensible-utils
