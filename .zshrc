@@ -108,7 +108,7 @@ export WORKON_HOME=$HOME/.virtualenvs
 # Git variables
 export GIT_AUTHOR_NAME="Daniel van Dorp"
 export GIT_AUTHOR_EMAIL="daniel.van.dorp@mendix.com"
-export GIT_COMMITTER_NAME="Daniel"
+export GIT_COMMITTER_NAME="Daniel van Dorp"
 export GIT_COMMITTER_EMAIL="daniel.van.dorp@mendix.com"
 
 # Debian variables
@@ -120,8 +120,8 @@ export DEBEMAIL DEBFULLNAME
 eval $(thefuck --alias)
 
 # For SSH Host Completion - Zsh Style
-# use ~/Projects/mendix/puppy/allemaal, ~/.ssh/known_hosts and /etc/hosts for hostname completion
-[ -r ~/Projects/mendix/puppy/allemaal ] && _mx_hosts=($(<$HOME/Projects/mendix/puppy/allemaal)) || _mx_hosts=()
+# use ~/dev/mendix/puppy/allemaal, ~/.ssh/known_hosts and /etc/hosts for hostname completion
+[ -r ~/dev/mendix/puppy/allemaal ] && _mx_hosts=($(<$HOME/dev/mendix/puppy/allemaal)) || _mx_hosts=()
 [ -r ~/.ssh/known_hosts ] && _ssh_hosts=(${${${${(f)"$(<$HOME/.ssh/known_hosts)"}:#[\|]*}%%\ *}%%,*}) || _ssh_hosts=()
 [ -r /etc/hosts ] && : ${(A)_etc_hosts:=${(s: :)${(ps:\t:)${${(f)~~"$(</etc/hosts)"}%%\#*}##[:blank:]#[^[:blank:]]#}}} || _etc_hosts=()
 hosts=(
