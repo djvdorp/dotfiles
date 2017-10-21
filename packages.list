@@ -11,6 +11,7 @@ apt-utils
 aptitude
 autojump
 avahi-autoipd
+awscli
 axel
 base-files
 base-passwd
@@ -96,6 +97,7 @@ iptables
 iputils-ping
 isc-dhcp-client
 isc-dhcp-common
+jq
 keyboard-configuration
 kmod
 krb5-locales
@@ -224,6 +226,7 @@ network-manager-openvpn-gnome
 nmon
 openssh-server
 passwd
+password-gorilla
 pciutils
 pcmciautils
 perl
@@ -237,9 +240,13 @@ puppet-release
 python
 python-dev
 python-minimal
+python-pip
+python-setuptools
 python2.7
 python3-dev
+python3-pip
 python3-reportbug
+python3-setuptools
 readline-common
 reportbug
 rsyslog
