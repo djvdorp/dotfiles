@@ -284,10 +284,11 @@ tzdata
 udev
 usbutils
 util-linux
+vagrant
 vim-common
 vim-nox
 vim-tiny
-virtualbox-5.2
+virtualbox-5.1
 wamerican
 wget
 whiptail
