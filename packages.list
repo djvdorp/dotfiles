@@ -88,6 +88,7 @@ gzip
 hdparm
 hostname
 htop
+httpie
 i3
 i3lock
 i3status
@@ -307,7 +308,7 @@ vagrant
 vim-common
 vim-nox
 vim-tiny
-virtualbox-5.1
+virtualbox-5.2
 wamerican
 wget
 whiptail
