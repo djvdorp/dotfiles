@@ -30,6 +30,7 @@ ca-certificates
 ca-certificates-mendix
 ca-certificates-mendix-test
 cf-cli
+chm2pdf
 chromium
 clipit
 cmake
@@ -248,6 +249,7 @@ perl-base
 perl-modules-5.24
 pinentry-curses
 pm-utils
+postgresql-client
 powertop
 procps
 pssh
@@ -265,6 +267,7 @@ python3-setuptools
 rar
 readline-common
 reportbug
+rsync
 rsyslog
 ruby-dev
 scrot
@@ -319,6 +322,7 @@ wpasupplicant
 x11-xserver-utils
 xautolock
 xbacklight
+xchm
 xdg-utils
 xserver-xorg
 xserver-xorg-video-intel
