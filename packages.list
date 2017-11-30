@@ -29,6 +29,7 @@ bzip2
 ca-certificates
 ca-certificates-mendix
 ca-certificates-mendix-test
+calibre
 cf-cli
 chm2pdf
 chromium
@@ -67,10 +68,12 @@ etckeeper
 evince
 file
 findutils
+firefox
 firefox-esr
 firmware-iwlwifi
 firmware-linux
 freerdp-x11
+gcc
 gcc-6-base
 gettext-base
 git
@@ -138,6 +141,7 @@ libelf1
 libestr0
 libfastjson4
 libfdisk1
+libffi-dev
 libffi6
 libgcc1
 libgcrypt20
@@ -190,6 +194,7 @@ libslang2
 libsmartcols1
 libsqlite3-0
 libss2
+libssl-dev
 libssl1.0.0
 libssl1.0.2
 libssl1.1
@@ -206,6 +211,8 @@ libunistring0
 libustr-1.0-1
 libuuid1
 libxapian30
+libxml2-dev
+libxslt1-dev
 libxtables12
 linux-headers-amd64
 linux-image-amd64
@@ -254,6 +261,7 @@ powertop
 procps
 pssh
 puppet-release
+pwgen
 python
 python-dev
 python-minimal
@@ -302,7 +310,6 @@ traceroute
 tree
 tzdata
 udev
-unclutter
 unrar
 unzip
 usbutils
@@ -331,4 +338,5 @@ xz-utils
 zenity
 zip
 zlib1g
+zlib1g-dev
 zsh
