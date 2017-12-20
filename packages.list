@@ -67,6 +67,7 @@ eog
 etckeeper
 evince
 file
+filezilla
 findutils
 firefox
 firefox-esr
@@ -215,6 +216,7 @@ libxml2-dev
 libxslt1-dev
 libxtables12
 linux-headers-amd64
+linux-image-4.9.0-4-amd64
 linux-image-amd64
 locales
 login
@@ -224,6 +226,7 @@ lsof
 lvm2
 man-db
 manpages
+maven
 mawk
 mime-support
 mount
@@ -241,6 +244,7 @@ network-manager-gnome
 network-manager-openvpn
 network-manager-openvpn-gnome
 nitrogen
+nmap
 nmon
 ntp
 openjdk-8-jdk
@@ -290,6 +294,7 @@ spotify-client
 strace
 suckless-tools
 sudo
+sxiv
 sysfsutils
 systemd
 systemd-sysv
