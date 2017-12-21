@@ -67,6 +67,7 @@ e2fsprogs
 eog
 etckeeper
 evince
+feh
 file
 filezilla
 findutils
@@ -325,6 +326,7 @@ vim-common
 vim-nox
 vim-tiny
 virtualbox-5.2
+vlc
 wamerican
 wget
 whiptail
