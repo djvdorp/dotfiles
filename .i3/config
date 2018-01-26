@@ -162,7 +162,7 @@ bar {
 # Daemons
 #
 # Play nice with GNOME (DBus etc.)
-exec /usr/bin/gnome-settings-daemon &
+#exec /usr/bin/gnome-settings-daemon &
 # Use xautolock to lock screen automatically after timeout
 exec xautolock -time 5 -locker ~/bin/shot-lock.sh &
 # Dropbox daemon
@@ -174,12 +174,13 @@ exec xautolock -time 5 -locker ~/bin/shot-lock.sh &
 #
 # Startup apps
 #
-exec --no-startup-id gnome-settings-daemon
+exec --no-startup-id gnome-settings-daemon &
 exec --no-startup-id clipit &
-exec --no-startup-id nm-applet
-exec --no-startup-id gnome-sound-applet
+exec --no-startup-id nm-applet &
+exec --no-startup-id gnome-sound-applet &
+exec --no-startup-id blueman-applet &
 exec --no-startup-id workrave &
-exec --no-startup-id nitrogen --restore
+exec --no-startup-id nitrogen --restore &
 #exec --no-startup-id easystroke &
 
 #
