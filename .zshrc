@@ -132,3 +132,6 @@ hosts=(
   localhost
 )
 zstyle ':completion:*:hosts' hosts $hosts
+
+# CF CLI plugins
+# https://github.com/ECSTeam/cloudfoundry-top-plugin
