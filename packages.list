@@ -35,6 +35,7 @@ calibre
 cf-cli
 chm2pdf
 chromium
+chromium-widevine
 clipit
 cmake
 code
@@ -69,6 +70,8 @@ e2fsprogs
 eog
 etckeeper
 evince
+exfat-fuse
+exfat-utils
 feh
 file
 filezilla
@@ -89,6 +92,7 @@ gnome-terminal
 gnupg
 gnupg-agent
 golang
+gparted
 gpgv
 grep
 groff-base
