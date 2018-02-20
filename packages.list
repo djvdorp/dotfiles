@@ -72,6 +72,7 @@ etckeeper
 evince
 exfat-fuse
 exfat-utils
+fbreader
 feh
 file
 filezilla
@@ -240,6 +241,7 @@ manpages
 maven
 mawk
 mime-support
+moreutils
 mount
 mtr-tiny
 multiarch-support
@@ -260,6 +262,7 @@ nmon
 ntp
 openjdk-8-jdk
 openjdk-8-jre
+openssh-client
 openssh-server
 p7zip-full
 passwd
@@ -293,6 +296,7 @@ reportbug
 rsync
 rsyslog
 ruby-dev
+screenfetch
 scrot
 sed
 sensible-utils
