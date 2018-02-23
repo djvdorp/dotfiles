@@ -175,6 +175,7 @@ liblockfile-bin
 liblogging-stdlog0
 liblognorm5
 liblz4-1
+liblz4-tool
 liblzma5
 libmnl0
 libmount1
