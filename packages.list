@@ -54,6 +54,7 @@ debian-archive-keyring
 debian-faq
 debian-mendix-archive-keyring
 debianutils
+dhex
 diffutils
 dirmngr
 discover
