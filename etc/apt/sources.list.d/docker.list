@@ -1,2 +1,1 @@
-deb [arch=amd64] https://download.docker.com/linux/debian jessie stable
-# deb-src [arch=amd64] https://download.docker.com/linux/debian jessie stable
+deb [arch=amd64] https://download.docker.com/linux/debian stretch stable
