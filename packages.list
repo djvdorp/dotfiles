@@ -64,6 +64,7 @@ dmsetup
 dnsutils
 doc-debian
 docker-ce
+dotnet-sdk-2.1.4
 dpkg
 dunst
 e2fslibs
@@ -85,6 +86,7 @@ firmware-linux
 freerdp-x11
 gcc
 gcc-6-base
+gettext
 gettext-base
 git
 gnome-applets
@@ -223,6 +225,7 @@ libtext-wrapi18n-perl
 libtinfo5
 libudev1
 libunistring0
+libunwind8
 libustr-1.0-1
 libuuid1
 libxapian30
