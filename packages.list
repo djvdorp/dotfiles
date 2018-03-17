@@ -80,7 +80,6 @@ file
 filezilla
 findutils
 firefox
-firefox-esr
 firmware-iwlwifi
 firmware-linux
 freerdp-x11
@@ -119,12 +118,14 @@ init-system-helpers
 initramfs-tools
 installation-report
 intel-microcode
+ipcalc
 iproute2
 iptables
 iputils-ping
 isc-dhcp-client
 isc-dhcp-common
 jq
+keepassxc
 keyboard-configuration
 kmod
 krb5-locales
@@ -308,6 +309,7 @@ sed
 sensible-utils
 shutter
 silversearcher-ag
+sipcalc
 smartmontools
 smbclient
 software-properties-common
