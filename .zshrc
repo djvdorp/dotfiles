@@ -116,9 +116,6 @@ DEBEMAIL="daniel.van.dorp@mendix.com"
 DEBFULLNAME="Daniel van Dorp"
 export DEBEMAIL DEBFULLNAME
 
-# For nvbn/thefuck
-eval $(thefuck --alias)
-
 # For SSH Host Completion - Zsh Style
 # use ~/dev/mendix/puppy/allemaal, ~/.ssh/known_hosts and /etc/hosts for hostname completion
 [ -r ~/dev/mendix/puppy/allemaal ] && _mx_hosts=($(<$HOME/dev/mendix/puppy/allemaal)) || _mx_hosts=()
