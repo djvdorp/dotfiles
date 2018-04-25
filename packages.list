@@ -21,6 +21,7 @@ bash-completion
 bind9-host
 blueman
 bluetooth
+bonnie++
 bsd-mailx
 bsdmainutils
 bsdutils
@@ -80,9 +81,10 @@ file
 filezilla
 findutils
 firefox
+firefox-esr
 firmware-iwlwifi
 firmware-linux
-freerdp-x11
+freerdp2-x11
 gcc
 gcc-6-base
 gettext
@@ -118,6 +120,7 @@ init-system-helpers
 initramfs-tools
 installation-report
 intel-microcode
+iozone3
 ipcalc
 iproute2
 iptables
@@ -156,6 +159,7 @@ libdevmapper1.02.1
 libdns-export162
 libelf1
 libestr0
+libevent-2.1-6
 libfastjson4
 libfdisk1
 libffi-dev
@@ -167,6 +171,7 @@ libgmp10
 libgnutls30
 libgpg-error0
 libhogweed4
+libhunspell-1.6-0
 libidn11
 libidn2-0
 libip4tc0
@@ -229,10 +234,12 @@ libunistring0
 libunwind8
 libustr-1.0-1
 libuuid1
+libvpx5
 libxapian30
 libxml2-dev
 libxslt1-dev
 libxtables12
+linux-headers-4.15.0-0.bpo.2-amd64
 linux-headers-amd64
 linux-image-4.9.0-4-amd64
 linux-image-4.9.0-5-amd64
@@ -247,6 +254,8 @@ man-db
 manpages
 maven
 mawk
+mesa-utils
+mesa-vulkan-drivers
 mime-support
 moreutils
 mount
@@ -257,7 +266,6 @@ ncdu
 ncurses-base
 ncurses-bin
 ncurses-term
-net-tools
 netbase
 netcat-traditional
 network-manager-gnome
@@ -272,6 +280,7 @@ openjdk-8-jre
 openssh-client
 openssh-server
 p7zip-full
+parted
 passwd
 password-gorilla
 pciutils
@@ -337,6 +346,7 @@ tig
 traceroute
 tree
 tzdata
+ucf
 udev
 unrar
 unzip
@@ -348,6 +358,7 @@ vim-nox
 vim-tiny
 virtualbox-5.2
 vlc
+vulkan-utils
 wamerican
 wget
 whiptail
