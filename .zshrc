@@ -5,7 +5,19 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="daveverwer"
+#
+# git clone into ~/.oh-my-zsh/custom/themes/
+# https://github.com/bhilburn/powerlevel9k.git
+ZSH_THEME="powerlevel9k/powerlevel9k"
+
+# Powerlevel9k ZSH theme
+POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=3
+POWERLEVEL9K_COMMAND_EXECUTION_TIME_PRECISION=2
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir virtualenv aws vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time dir_writable root_indicator background_jobs time)
+
+# optionally set DEFAULT_USER in ~/.zshrc to your regular username to hide the "user@hostname" info when you’re logged in as yourself on your local machine.
+DEFAULT_USER="daniel"
 
 # Uncomment the following line to use case-sensitive completion.
 CASE_SENSITIVE="true"
