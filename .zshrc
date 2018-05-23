@@ -130,5 +130,10 @@ hosts=(
 )
 zstyle ':completion:*:hosts' hosts $hosts
 
+# Powerline, via https://gist.github.com/mrkara/68c6435f019136acd8db93546cff22e7
+if [[ -r /usr/local/lib/python2.7/dist-packages/powerline/bindings/zsh/powerline.zsh ]]; then
+    source /usr/local/lib/python2.7/dist-packages/powerline/bindings/zsh/powerline.zsh
+fi
+
 # CF CLI plugins
 # https://github.com/ECSTeam/cloudfoundry-top-plugin
