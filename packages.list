@@ -53,8 +53,10 @@ debconf
 debconf-i18n
 debian-archive-keyring
 debian-faq
+debian-keyring
 debian-mendix-archive-keyring
 debianutils
+devscripts
 dhex
 diffutils
 dirmngr
@@ -71,6 +73,7 @@ dunst
 e2fslibs
 e2fsprogs
 eog
+equivs
 etckeeper
 ethtool
 evince
@@ -283,6 +286,7 @@ openjdk-8-jre
 openssh-client
 openssh-server
 p7zip-full
+packaging-dev
 parted
 passwd
 pciutils
