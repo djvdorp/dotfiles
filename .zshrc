@@ -149,3 +149,4 @@ fi
 
 # CF CLI plugins
 # https://github.com/ECSTeam/cloudfoundry-top-plugin
+# https://github.com/guidowb/cf-targets-plugin
