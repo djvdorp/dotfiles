@@ -59,6 +59,7 @@ debianutils
 devscripts
 dhex
 diffutils
+direnv
 dirmngr
 discover
 dkms
@@ -211,6 +212,7 @@ libpipeline1
 libpopt0
 libprocps6
 libpsl5
+libreadline-dev
 libreadline7
 libseccomp2
 libselinux1
@@ -220,6 +222,7 @@ libsepol1
 libslang2
 libsmartcols1
 libsqlite3-0
+libsqlite3-dev
 libss2
 libssl-dev
 libssl1.0.0
@@ -243,6 +246,7 @@ libxapian30
 libxml2-dev
 libxslt1-dev
 libxtables12
+libyaml-dev
 linux-headers-4.15.0-0.bpo.2-amd64
 linux-headers-amd64
 linux-image-4.9.0-4-amd64
@@ -283,6 +287,7 @@ openjdk-8-jdk
 openjdk-8-jre
 openssh-client
 openssh-server
+openssl
 p7zip-full
 packaging-dev
 parted
@@ -316,7 +321,10 @@ readline-common
 reportbug
 rsync
 rsyslog
+ruby
 ruby-dev
+scaleft-client-tools
+scaleft-url-handler
 screenfetch
 scrot
 sed
@@ -329,6 +337,7 @@ smbclient
 snapd
 software-properties-common
 spotify-client
+sqlite3
 strace
 suckless-tools
 sudo
@@ -386,4 +395,5 @@ zim
 zip
 zlib1g
 zlib1g-dev
+zlibc
 zsh
