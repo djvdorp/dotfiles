@@ -1,1 +1,0 @@
-zstyle -e ':completion::*:*:*:hosts' hosts 'reply=(${=${${(f)"$(cat /home/you/path/to/puppy/allemaal)"}%%[# ]*}//,/ })'

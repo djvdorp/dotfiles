@@ -19,6 +19,12 @@ shopt -s histappend
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
+# For SSH Host Completion - Bash Style
+# use ~/dev/mendix/puppy/allemaal for hostname completion, as per Bash man pages:
+# HOSTFILE:  Contains the name of a file in the same format as /etc/hosts that should be read when the shell needs to complete a hostname. The list of possible hostname completions may be changed while the shell is running; the next time hostname completion is attempted after the value is changed, bash adds the contents of the new file to the existing list. If HOSTFILE is set, but has no value, bash attempts to read /etc/hosts to obtain the list of possible hostname completions. When HOSTFILE is unset, the hostname list is cleared.
+shopt -s hostcomplete
+export HOSTFILE="$HOME/dev/mendix/puppy/allemaal"
+
 # If set, the pattern "**" used in a pathname expansion context will
 # match all files and zero or more directories and subdirectories.
 #shopt -s globstar
