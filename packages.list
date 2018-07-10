@@ -39,6 +39,7 @@ cf-cli
 chm2pdf
 chromium
 chromium-widevine
+cifs-utils
 clipit
 cmake
 code
@@ -228,6 +229,7 @@ libsemanage1
 libsepol1
 libslang2
 libsmartcols1
+libsmbclient
 libsqlite3-0
 libsqlite3-dev
 libss2
@@ -321,6 +323,7 @@ python-dev
 python-minimal
 python-pip
 python-setuptools
+python-smbc
 python2.7
 python3-dev
 python3-pip
@@ -353,6 +356,7 @@ suckless-tools
 sudo
 sxiv
 sysfsutils
+system-config-printer
 systemd
 systemd-sysv
 sysvinit-utils
@@ -382,6 +386,7 @@ vim-common
 vim-nox
 vim-tiny
 virtualbox-5.2
+visualvm
 vlc
 vulkan-utils
 wamerican
