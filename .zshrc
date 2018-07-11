@@ -113,6 +113,10 @@ alias gfr="git fetch && git rebase && tig"
 alias gp="git push"
 alias gpf="git push --force-with-lease"
 
+# pbcopy and pbpaste on Linux
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
+
 # Customize to your needs...
 # For Python virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
