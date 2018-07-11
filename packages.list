@@ -24,6 +24,7 @@ bind9-host
 blueman
 bluetooth
 bonnie++
+breeze-icon-theme
 bsd-mailx
 bsdmainutils
 bsdutils
@@ -93,6 +94,7 @@ firmware-iwlwifi
 firmware-linux
 fonts-powerline
 freerdp2-x11
+frei0r-plugins
 gcc
 gcc-6-base
 gettext
@@ -137,6 +139,7 @@ iputils-ping
 isc-dhcp-client
 isc-dhcp-common
 jq
+kdenlive
 keepassxc
 keyboard-configuration
 kmod
@@ -297,6 +300,7 @@ nodejs
 ntp
 openjdk-8-jdk
 openjdk-8-jre
+openshot
 openssh-client
 openssh-server
 openssl
@@ -310,6 +314,7 @@ perl
 perl-base
 perl-modules-5.24
 pinentry-curses
+pitivi
 pm-utils
 postgresql-client
 powertop
