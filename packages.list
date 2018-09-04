@@ -41,6 +41,7 @@ chm2pdf
 chromium
 chromium-widevine
 cifs-utils
+ciso
 clipit
 cmake
 code
@@ -117,12 +118,14 @@ grub-pc
 guvcview
 gzip
 hdparm
+heroku
 hostname
 htop
 httpie
 i3
 i3lock
 i3status
+iftop
 ifupdown
 imagemagick
 influxdb
@@ -256,6 +259,7 @@ libuuid1
 libvpx5
 libwww-perl
 libxapian30
+libxcb-xtest0
 libxml-libxml-perl
 libxml2-dev
 libxslt1-dev
@@ -289,12 +293,12 @@ ncurses-base
 ncurses-bin
 ncurses-term
 netbase
+netcat-openbsd
 netcat-traditional
 network-manager-gnome
 network-manager-openvpn
 network-manager-openvpn-gnome
 nitrogen
-nmap
 nmon
 nodejs
 ntp
@@ -319,6 +323,7 @@ pm-utils
 postgresql-client
 powertop
 procps
+protobuf-compiler
 pssh
 puppet-agent
 puppet-release
@@ -406,6 +411,7 @@ xautolock
 xbacklight
 xchm
 xdg-utils
+xsel
 xserver-xorg
 xserver-xorg-video-intel
 xxd
@@ -416,4 +422,5 @@ zip
 zlib1g
 zlib1g-dev
 zlibc
+zoom
 zsh
