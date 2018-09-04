@@ -161,7 +161,7 @@
     autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
     autocmd FileType go nmap <leader>r  <Plug>(go-run)
     autocmd FileType go nmap <leader>n  <Plug>(go-test)
-    autocmd FileType go nmap <Leader>c <Plug>(go-coverage-toggle)
+    autocmd FileType go nmap <leader>c <Plug>(go-coverage-toggle)
 
     if has('persistent_undo')
         set undofile
