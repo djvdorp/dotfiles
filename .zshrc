@@ -154,3 +154,6 @@ fi
 # CF CLI plugins
 # https://github.com/ECSTeam/cloudfoundry-top-plugin
 # https://github.com/guidowb/cf-targets-plugin
+
+# https://github.com/direnv/direnv
+eval "$(direnv hook zsh)"
