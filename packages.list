@@ -186,6 +186,9 @@ libgcrypt20
 libgdbm3
 libgmp10
 libgnutls30
+libgoo-canvas-perl
+libgoocanvas-common
+libgoocanvas3
 libgpg-error0
 libhogweed4
 libhunspell-1.6-0
@@ -294,6 +297,7 @@ ncdu
 ncurses-base
 ncurses-bin
 ncurses-term
+net-tools
 netbase
 netcat-openbsd
 netcat-traditional
@@ -364,6 +368,7 @@ snapd
 software-properties-common
 spotify-client
 sqlite3
+stack-client
 strace
 suckless-tools
 sudo
@@ -414,6 +419,7 @@ xautolock
 xbacklight
 xchm
 xdg-utils
+xscreensaver
 xsel
 xserver-xorg
 xserver-xorg-video-intel
