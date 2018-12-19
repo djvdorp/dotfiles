@@ -243,7 +243,7 @@ libsmbclient
 libsqlite3-0
 libsqlite3-dev
 libss2
-libssl-dev
+libssl1.0-dev
 libssl1.0.0
 libssl1.0.2
 libssl1.1
