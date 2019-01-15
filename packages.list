@@ -371,6 +371,7 @@ spotify-client
 sqlite3
 stack-client
 strace
+streamlink
 suckless-tools
 sudo
 sxiv
