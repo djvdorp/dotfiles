@@ -94,6 +94,7 @@ filezilla
 findutils
 firmware-iwlwifi
 firmware-linux
+fontconfig-config
 fonts-powerline
 freerdp2-x11
 frei0r-plugins
@@ -105,6 +106,7 @@ git
 gnome-applets
 gnome-bluetooth
 gnome-keyring
+gnome-photos
 gnome-terminal
 gnupg
 gnupg-agent
@@ -135,6 +137,7 @@ init-system-helpers
 initramfs-tools
 installation-report
 intel-microcode
+intltool
 iozone3
 ipcalc
 iproute2
@@ -182,15 +185,18 @@ libfastjson4
 libfdisk1
 libffi-dev
 libffi6
+libfontconfig1
 libgcc1
 libgcrypt20
 libgdbm3
+libglib2.0-dev
 libgmp10
 libgnutls30
 libgoo-canvas-perl
 libgoocanvas-common
 libgoocanvas3
 libgpg-error0
+libgtk-3-dev
 libhogweed4
 libhunspell-1.6-0
 libidn11
@@ -218,7 +224,12 @@ libnetfilter-conntrack3
 libnettle6
 libnewt0.52
 libnfnetlink0
+libnm-glib-dev
+libnm-glib-vpn-dev
+libnm-util-dev
+libnma-dev
 libnpth0
+libnss3
 libp11-kit0
 libpam-modules
 libpam-modules-bin
@@ -233,6 +244,7 @@ libpsl5
 libreadline-dev
 libreadline7
 libseccomp2
+libsecret-1-dev
 libselinux1
 libsemanage-common
 libsemanage1
@@ -302,6 +314,7 @@ net-tools
 netbase
 netcat-openbsd
 netcat-traditional
+network-manager-dev
 network-manager-gnome
 network-manager-openvpn
 network-manager-openvpn-gnome
