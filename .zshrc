@@ -71,7 +71,7 @@ plugins=(git python zsh-syntax-highlighting virtualenvwrapper autojump cf-zsh-au
 
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
-export PATH=$HOME/bin:/usr/local/bin:/opt/puppetlabs/bin:$HOME/apache-maven/bin:$HOME/.npm-global:$PATH:$GOBIN
+export PATH=$HOME/bin:/usr/local/bin:/opt/puppetlabs/bin:$HOME/.pyenv/bin:$HOME/apache-maven/bin:$HOME/.npm-global:$PATH:$GOBIN
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -157,3 +157,8 @@ fi
 
 # https://github.com/direnv/direnv
 eval "$(direnv hook zsh)"
+
+# https://github.com/pyenv/pyenv
+#export PATH="/home/daniel/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
