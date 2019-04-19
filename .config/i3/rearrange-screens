@@ -1,0 +1,18 @@
+#!/bin/sh
+
+DISPLAYS=$(xrandr | grep "\sconnected" | awk '{print $1}')
+
+for d in $DISPLAYS
+do
+    if [ "$d" != "eDP1" ]
+    then
+        logger "xrandr --output $d --auto"
+        xrandr --output $d --auto
+        if [ -n $PREV ]
+        then
+            logger "xrandr --output $d --right-of $PREV"
+            xrandr --output $d --right-of $PREV
+        fi
+    fi
+    PREV=$d
+done
