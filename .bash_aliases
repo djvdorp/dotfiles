@@ -9,3 +9,7 @@ alias gfml="git add -A . && git commit --amend --no-edit && git push --force-wit
 alias gfr="git fetch && git rebase && tig"
 alias gp="git push"
 alias gpf="git push --force-with-lease"
+
+# pbcopy and pbpaste on Linux
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
