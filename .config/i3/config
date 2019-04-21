@@ -166,7 +166,7 @@ bar {
 # Use xautolock to lock screen automatically after timeout
 exec xautolock -time 5 -locker ~/bin/shot-lock.sh &
 # Dropbox daemon
-#exec dropbox start &
+exec dropbox start &
 # Mail Notification daemon
 #exec mail-notification &
 
