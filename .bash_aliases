@@ -13,3 +13,6 @@ alias gpf="git push --force-with-lease"
 # pbcopy and pbpaste on Linux
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
+
+# sane df output with Snaps
+alias df='df -x"squashfs"'
