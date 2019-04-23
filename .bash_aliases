@@ -16,3 +16,6 @@ alias pbpaste='xsel --clipboard --output'
 
 # sane df output with Snaps
 alias df='df -x"squashfs"'
+
+# let ag search hidden files
+alias ag='ag --hidden'
