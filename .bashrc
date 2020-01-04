@@ -158,4 +158,4 @@ export PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\
 #export GOPATH=$HOME/go
 #export GOBIN=$GOPATH/bin
 #export PATH=$HOME/bin:/usr/local/bin:/opt/puppetlabs/bin:$HOME/.pyenv/bin:$HOME/apache-maven/bin:$HOME/.npm-global:$PATH:$GOBIN
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
