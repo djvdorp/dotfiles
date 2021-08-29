@@ -400,6 +400,7 @@ gpg-wks-server
 gpgconf
 gpgsm
 gpgv
+gpick
 grep
 grilo-plugins-0.3-base
 groff-base
@@ -445,6 +446,7 @@ hplip-data
 htop
 humanity-icon-theme
 hunspell-en-us
+hwinfo
 hwloc
 hyphen-en-us
 i3lock
@@ -1682,6 +1684,7 @@ systemd
 systemd-sysv
 sysvinit-utils
 t1utils
+tableplus
 tar
 tcpdump
 teams
@@ -1690,10 +1693,6 @@ telnet
 terminator
 tftp
 thermald
-thunderbird
-thunderbird-gnome-support
-thunderbird-locale-en
-thunderbird-locale-en-us
 tig
 tilix
 time
