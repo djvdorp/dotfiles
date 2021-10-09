@@ -1754,6 +1754,7 @@ usbutils
 util-linux
 uuid-runtime
 vagrant
+varnish
 vim-common
 vim-nox
 vim-tiny
