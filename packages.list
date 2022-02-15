@@ -415,14 +415,18 @@ gsettings-ubuntu-schemas
 gsfonts
 gstreamer1.0-alsa
 gstreamer1.0-clutter-3.0
+gstreamer1.0-doc
 gstreamer1.0-gl
 gstreamer1.0-gtk3
 gstreamer1.0-libav
 gstreamer1.0-packagekit
+gstreamer1.0-plugins-bad
 gstreamer1.0-plugins-base
 gstreamer1.0-plugins-base-apps
 gstreamer1.0-plugins-good
+gstreamer1.0-plugins-ugly
 gstreamer1.0-pulseaudio
+gstreamer1.0-qt5
 gstreamer1.0-tools
 gstreamer1.0-x
 gtk-update-icon-cache
@@ -469,6 +473,7 @@ init-system-helpers
 initramfs-tools
 initramfs-tools-bin
 initramfs-tools-core
+inkscape
 inputattach
 install-info
 intltool-debian
@@ -821,9 +826,12 @@ libgspell-1-common
 libgssapi-krb5-2
 libgssapi3-heimdal
 libgstreamer-gl1.0-0
+libgstreamer-plugins-bad1.0-dev
 libgstreamer-plugins-base1.0-0
+libgstreamer-plugins-base1.0-dev
 libgstreamer-plugins-good1.0-0
 libgstreamer1.0-0
+libgstreamer1.0-dev
 libgtk-3-0
 libgtk-3-bin
 libgtk-3-common
@@ -1515,6 +1523,7 @@ pulseaudio
 pulseaudio-module-bluetooth
 pulseaudio-utils
 puppet
+pv
 pwgen
 python-apt-common
 python-gtk2
@@ -1616,6 +1625,7 @@ qpdf
 qt5-gtk-platformtheme
 r10k
 readline-common
+redis-tools
 remarkable
 remmina
 remmina-common
@@ -1654,6 +1664,7 @@ signal-desktop
 silversearcher-ag
 simple-scan
 smartgit
+smartmontools
 snapd
 software-properties-common
 software-properties-gtk
@@ -1670,7 +1681,6 @@ sshuttle
 ssl-cert
 steam-installer
 strace
-streamlink
 suckless-tools
 sudo
 syslinux
@@ -1766,6 +1776,8 @@ vlc-plugin-notify
 vlc-plugin-video-output
 wamerican
 wbritish
+wbritish-large
+wbritish-small
 webp
 wget
 whiptail
