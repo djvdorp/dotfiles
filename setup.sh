@@ -13,3 +13,10 @@ ln -sf ~/Dropbox/Notebooks/ ~/Notebooks
 ln -sf ~/dev/djvdorp/dotfiles/.profile ~/.profile
 
 ln -sf ~/dev/djvdorp/dotfiles/.config/i3/ ~/.config/i3
+
+mkdir -p ~/dev/ubuntu/
+cd ~/dev/ubuntu/
+git clone https://gitlab.com/wavexx/acpilight
+cd acpilight
+sudo make install
+sudo usermod -a -G video daniel
