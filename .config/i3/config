@@ -169,6 +169,8 @@ exec xautolock -time 5 -locker ~/bin/shot-lock.sh &
 exec dropbox start &
 # Mail Notification daemon
 #exec mail-notification &
+# Touchpad indicator daemon
+exec touchpad-indicator &
 
 
 #
