@@ -25,3 +25,9 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
+case "$DESKTOP_SESSION" in
+    i3)
+        export $(gnome-keyring-daemon --start)
+        ;;
+esac
