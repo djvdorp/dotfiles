@@ -171,6 +171,8 @@ exec dropbox start &
 #exec mail-notification &
 # Touchpad indicator daemon
 exec touchpad-indicator &
+# Logitech Unifying receiver
+exec solaar --window=hide &
 # Gnome Pomodoro timer
 exec gnome-pomodoro &
 

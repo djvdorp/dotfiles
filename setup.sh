@@ -11,6 +11,8 @@ ln -sf ~/dev/djvdorp/dotfiles/.bashrc ~/.bashrc
 ln -sf ~/dev/djvdorp/dotfiles/bin ~/
 ln -sf ~/Dropbox/Notebooks/ ~/Notebooks
 ln -sf ~/dev/djvdorp/dotfiles/.profile ~/.profile
+mkdir -p ~/.workrave/
+ln -sf ~/dev/djvdorp/dotfiles/.workrave/workrave.ini ~/.workrave/workrave.ini
 
 mv ~/.config/i3 ~/.config/i3.bak
 ln -sf ~/dev/djvdorp/dotfiles/.config/i3 ~/.config
