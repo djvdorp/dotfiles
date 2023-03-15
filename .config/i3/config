@@ -171,6 +171,8 @@ exec dropbox start &
 #exec mail-notification &
 # Touchpad indicator daemon
 exec touchpad-indicator &
+# Gnome Pomodoro timer
+exec gnome-pomodoro &
 
 
 #
